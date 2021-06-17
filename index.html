@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div id="headerdiv"></div>
+        <div style="background-color: rgb(235, 237, 240) ; padding-left:34% ;">
+            <br>
+            <p id="p1">Create a new account</p><br>
+        <p id="p2">It's quick and easy</p><br>
+        
+        <form name="docform" >
+            <input class="inputclass" type="text" id="name1" placeholder="First Name"> <input class="inputclass" type="text" id="lname" placeholder="Last name">
+            <br><br>
+            <input type="text" class="cred" id="email1" placeholder="Enter email address"><br><br>
+            <input type="password" class="cred" id="pass" placeholder="Enter Password"><br><br>
+            <label for="date" class="label1">Date of birth</label><br>
+            <input type="date" class="cred" id="date1"><br><br>
+
+            <label for="gender"  class="label1">Gender</label><br>
+            <input type="radio" id="male" name="gender" value="male">
+<label for="male">Male</label> 
+<input type="radio" id="female" name="gender" value="female">
+<label for="female">Female</label>
+<input type="radio" id="other" name="gender" value="other">
+<label for="other">Other</label>
+       
+        </form>
+        
+ <p style="color: red; font-size: 12px;">
+ <span id="para"></span>
+ </p><br>
+ <input type="submit" class="button1" value="submit" onclick="validcheck()"><br><br>
+</div> 
+        <script src="main1.js"></script>
+    </body>
+</html>
